@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="code/app"/>
+	<classpathentry kind="src" path="samples/java/play-authenticate-simple-oauth/app"/>
+	<classpathentry kind="src" path="samples/java/play-authenticate-usage/app"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
