@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="es.ull.patrones.characters.ull.es.BadLemming" project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/characters/ull/es/BadLemming.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="143" x="123" y="126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="es.ull.patrones.characters.ull.es.Lemming" project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/characters/ull/es/Lemming.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="399" y="219"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="es.ull.patrones.comportamiento.ull.es.BasherBehaviour" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/comportamiento/ull/es/BasherBehaviour.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="763" y="618"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="es.ull.patrones.comportamiento.ull.es.IBehaviour" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/comportamiento/ull/es/IBehaviour.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="606" y="414"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="es.ull.patrones.comportamiento.ull.es.BuilderBehaviour" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/comportamiento/ull/es/BuilderBehaviour.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="951" y="617"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="es.ull.patrones.comportamiento.ull.es.DiggerBehaviour" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/comportamiento/ull/es/DiggerBehaviour.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="568" y="614"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="es.ull.patrones.comportamiento.ull.es.DownArmsBehaviour" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/comportamiento/ull/es/DownArmsBehaviour.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1125" y="616"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="es.ull.patrones.comportamiento.ull.es.JumpBehaviour" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/comportamiento/ull/es/JumpBehaviour.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1296" y="600"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="es.ull.patrones.comportamiento.ull.es.MinerBehaviour" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/comportamiento/ull/es/MinerBehaviour.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1139" y="341"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="es.ull.patrones.comportamiento.ull.es.ParachuteBehaviour" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/comportamiento/ull/es/ParachuteBehaviour.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1265" y="468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="es.ull.patrones.movimientos.ull.es.IMove" project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/movimientos/ull/es/IMove.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="240" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="es.ull.patrones.movimientos.ull.es.MoveAbajo" project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/movimientos/ull/es/MoveAbajo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="153" x="-36" y="522"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="es.ull.patrones.movimientos.ull.es.MoveArriba" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/movimientos/ull/es/MoveArriba.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="208" y="611"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="es.ull.patrones.movimientos.ull.es.MoveDerecha" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/movimientos/ull/es/MoveDerecha.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="381" y="621"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="es.ull.patrones.movimientos.ull.es.MoveIzquierda" 
+    project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/movimientos/ull/es/MoveIzquierda.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="153" x="-54" y="355"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="es.ull.patrones.Principal.ull.es.Main" project="Lemming_Patron_Estrategia" 
+    file="/Lemming_Patron_Estrategia/src/es/ull/patrones/Principal/ull/es/Main.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="686" y="156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="17">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="18">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="19">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="20" name="m_Moving"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="22">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="23">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="25">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="28">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="30">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="31">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="32">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="33" name="m_Moving"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="35">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="36">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="37">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="39">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="40">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="41" name="m_Strategy"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="43">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

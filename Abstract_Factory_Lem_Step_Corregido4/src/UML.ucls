@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <interface id="1" language="java" name="es.ull.patrones.Laberinto.FabricaAbstractaLaberintos" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Laberinto/FabricaAbstractaLaberintos.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="199" y="131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="es.ull.patrones.Laberinto.JuegoDelLaberinoConPuertasBomba" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Laberinto/JuegoDelLaberinoConPuertasBomba.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="623" y="61"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="es.ull.patrones.GUI.Ventana" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/GUI/Ventana.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="140" x="176" y="-184"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Principal.LemmingsInWorld" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/Principal/LemmingsInWorld.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="38" y="-103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="es.ull.patrones.Characters.Entity" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/Entity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="96" y="422"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="es.ull.patrones.Characters.Character" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/Character.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="99" y="1016"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="es.ull.patrones.Characters.Lemming" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/Lemming.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="628" y="1222"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="es.ull.patrones.Characters.BadLemming" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/BadLemming.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1163" y="1083"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="es.ull.patrones.Map.Habitacion" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Map/Habitacion.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="951" y="362"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="es.ull.patrones.Laberinto.JuegoDelLaberintoNormal" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Laberinto/JuegoDelLaberintoNormal.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="560" y="543"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="es.ull.patrones.Map.LugarDelMapa" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Map/LugarDelMapa.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="134" x="863" y="557"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="es.ull.patrones.Map.Pared" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Map/Pared.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1294" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="es.ull.patrones.Map.Puerta" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Map/Puerta.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1256" y="697"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="es.ull.patrones.Map.PuertaBomba" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Map/PuertaBomba.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="944" y="729"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="es.ull.patrones.Map.PuertaNORMAL" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Map/PuertaNORMAL.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1169" y="898"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="Mediator.CanalEmisora" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/Mediator/CanalEmisora.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="173" x="525" y="872"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="Mediator.ICanalEmisora" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/Mediator/ICanalEmisora.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="173" x="773" y="810"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="Mediator.IPersonaje" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/Mediator/IPersonaje.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="708" y="1058"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="19" language="java" name="es.ull.patrones.TypeHabitacion.HabitacionNormal" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/TypeHabitacion/HabitacionNormal.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1053" y="1261"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="es.ull.patrones.Laberinto.Laberinto" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Laberinto/Laberinto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="303" x="855" y="-217"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <realization id="22">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <realization id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="33">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="34" name="mensaje"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="38">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="39" name="habitacion2"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="45">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="46" name="habitaciones"/>      
+      <multiplicity id="47" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="49">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <association id="54">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="55" name="labe"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="58" name="participantes"/>      
+      <multiplicity id="59" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="61" name="habitacion1"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="64" name="mensaje"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="67" name="lados"/>      
+      <multiplicity id="68" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="69">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="70">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="71" name="characters"/>      
+      <multiplicity id="72" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="73">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="74">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="75">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <generalization id="76">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <realization id="78">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <dependency id="79">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="80">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="81">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="82">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <realization id="83">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

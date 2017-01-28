@@ -1,0 +1,34 @@
+@(FormEstudiante: Form[views.formdata.DatosEstudiante],
+  Accesos:Map[String,Boolean],
+  Cursos:List[String],
+  Anio:Map[String,Boolean],
+  Titulaciones:Map[String,Boolean])
+
+@import helper._
+
+@main("Index") {
+<div class="container">
+  <div class="well">
+
+    @form(routes.Application.postIndex(), 'class -> "form-horizontal") {
+      @fieldset(FormEstudiante, Accesos, Cursos, Año, Titulaciones)
+    }
+  </div>
+
+  @if(flash.containsKey("success")) {
+  <div class="well">
+    <div id="success-message" class="text-success">
+      @flash.get("success")
+    </div>
+  </div>
+  }
+  @if(flash.containsKey("error")) {
+  <div class="well">
+    <div id="error-message" class="text-danger">
+      @flash.get("error")
+  </div>
+    </div>
+  }
+</div>
+
+}

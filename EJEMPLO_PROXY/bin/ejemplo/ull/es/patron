@@ -1,0 +1,213 @@
+/**
+ * Clase Cliente:  el cliente del sujeto tan solo conoce que maneja un objeto de la
+ * clase Sujeto. Por tanto, funciona indistintamente con el SujetoReal
+ * como con su Proxy.
+ */
+ 
+public class Cliente {
+ 
+  /**
+  * El constructor guarda la referencia al sujeto.
+  */
+ 
+  public Cliente(Sujeto sujeto) {
+       _sujeto = sujeto; 
+  }
+ /** 
+   * Lo único que realiza el cliente en su método ejecutar es 
+   * llamar 2 veces al metodo1, luego 1 vez al metodo2, 
+   * y de nuevo al metodo1. _sujeto, ejecutará el método dependiendo
+   * si fue creado como proxy o sujetoReal.
+   */
+ 
+  public void ejecutar() {
+        _sujeto.metodo1();
+        _sujeto.metodo1();
+        _sujeto.metodo2();
+        _sujeto.metodo1();
+  }
+}
+ 
+ 
+ /**
+   *  La clase Cliente tiene el atributo _sujeto que le permite tener una referencia al sujeto al que 
+   *  el cliente envía la petición de ejecutar un determinado método.
+   */ 
+ 
+     private Sujeto _sujeto;
+ 
+ }
+/**
+   * La clase Sujeto dentro del patrón Proxy es la interfaz del sujeto
+   * real de cara al exterior (Cliente). Es una clase abstracta cuyos
+   * métodos serán implementados tanto por el sujeto real como por el proxy.
+   */
+ 
+   public abstract class Sujeto {
+ 
+  /**
+    * El constructor guarda el nombre del sujeto.
+    */
+     private Sujeto(String nombre) { 
+         _nombre = nombre; 
+    }
+ 
+  /**
+   * Método que devuelve el nombre del sujeto.
+   */
+     public String toString() { 
+          return _nombre; 
+    }
+ 
+  /**
+   * Métodos definidos de forma abstracta en la clase Sujeto, y que tendrán distintas implementaciones en las clases que heredan de ésta: Proxy
+   * y SujetoReal.
+   */
+ 
+     public abstract void metodo1();
+     public abstract void metodo2();
+ 
+  /**
+   * Este método llama al método toString() de la clase Proxy. Se le pasa un objeto de la clase Sujeto, pero se considera que se trata de un objeto proxy.
+   */
+ 
+     public void status (Sujeto sujeto) {
+         Proxy p;
+         p = (Proxy) sujeto;
+         p.toString();
+     }   
+ 
+  /**
+   *  La clase Sujeto tiene el atributo _nombre , que indica el nombre  de un sujeto,  tanto si se trata de un proxy
+   *  como de un sujeto real.
+   */ 
+ 
+     private String  _nombre;
+ 
+}
+/**
+ * Éste es el objeto Proxy. Este proxy es simultáneamente un 
+ *
+ * (a) proxy virtual que retrasa la creación del objeto real hasta que
+ *     se invoca alguno de sus métodos.
+ * (b) referencia inteligente, realizando labores de contabilización
+ *     del número de veces que se invoca un método.
+ */
+ 
+public class Proxy extends Sujeto {
+ 
+   /**
+    * el constructor de la clase, además de inicializar a la parte
+    * correspondiente a la superclase, establece a null la referencia
+    * al sujeto real e inicializa la contabilización.
+    */
+ 
+  public Proxy (String nombre) {
+     super(nombre);
+    _sujetoReal = null;
+   _accesosMetodo1 = 0;
+   _accesosMetodo2 = 0;
+  }
+ 
+  /**
+   * En lugar de realizar de cada vez una comprobación de si el
+   * sujeto real esta creado y en caso contrario crearlo, se define
+   * este método privado.
+   */
+ 
+  private SujetoReal obtenerSujetoReal() {
+    if (_sujetoReal == null)
+      _sujetoReal = new SujetoReal(this + " (Real)");
+ 
+    return _sujetoReal;
+  }
+ /**
+   * Los métodos delegan en el sujeto real.
+   */
+ 
+  public void metodo1() { 
+    _accesosMetodo1++; 
+    obtenerSujetoReal().metodo1(); 
+  }
+ 
+  public void metodo2() { 
+    _accesosMetodo2++;
+    obtenerSujetoReal().metodo2(); 
+  }
+ 
+  /**
+    * Este método permite presentar información de contabilización
+    * de uso del objeto.
+    */
+ 
+  public void toString() {
+    if (_sujetoReal != null)
+      System.out.println("Accesos a " + _sujetoReal + 
+                         ": metodo1=" + _accesosMetodo1 + 
+                         ", metodo2=" + _accesosMetodo2);
+    else 
+      System.out.println("Sujeto Real (" + this + ") no creado.");
+  }
+ 
+  /**
+   * Atributos privados: _sujetoReal que le permite a la clase Proxy tener una referencia al sujeto real y los contabilizadores de los accesos a
+  * los métodos 1 y 2.
+   */
+ 
+  private SujetoReal _sujetoReal; 
+  private int  _accesosMetodo1, _accesosMetodo2;
+}
+/** 
+ * La clase SujetoReal es el objeto sobre el que queremos
+ * implementar un proxy. Extiende la clase Sujeto implementando los
+ * métodos del sujeto (en realidad es el sujeto el que presenta
+ * la interfaz de los métodos del sujeto real...)
+ */
+ 
+public class SujetoReal extends Sujeto {
+ 
+  public SujetoReal(String nombre) { 
+     super(nombre); 
+     // aquí aparece el código de una inicialización costosa: por ejemplo,  añadir un objeto (que se le pasase como parámetro al constructor) a
+     // un vector que tuviese como atributo esta misma clase (SujetoReal), y luego ordenar dicho vector de 
+     // mayor a menor en función de un atributo entero que tuviese la clase a la que pertenecen los objetos que contiene el vector.
+     // Otro ejemplo de inicialización costosa sería el llamar en el constructor a un método de esta clase: por
+     //  ejemplo loadImageFromDisk() lo cúal sería lógico si  se tratase de una clase ImagenReal que tuviese como proxy la clase ProxyReal y 
+     // como clase abstracta de la que hereda, la clase Imagen.
+  }
+ 
+  /**
+    * Se implementan los dos métodos abstractos del sujeto.
+    */
+ 
+  public void metodo1()  {
+      System.out.println("Ejecutando metodo1 en " + this);
+   }
+ 
+  public void metodo2() {
+      System.out.println("Ejecutando metodo2 en " + this);
+   }
+ 
+}
+/**
+ * Programa principal. 
+*/
+ 
+public class Main {
+ 
+   public static void main(String argv[]) {
+ 
+    Sujeto objetoA = new Proxy("objetoA");
+    Cliente c = new Cliente(objetoA);
+    objetoA.status(objetoA);
+    c.ejecutar();
+    objetoA.status(objetoA);
+ 
+ 
+    Sujeto objetoB = new sujetoReal(“objetoB”);
+    Cliente d = new Cliente(objetoB);
+ 
+    d.ejecutar();
+  }
+ 
+}

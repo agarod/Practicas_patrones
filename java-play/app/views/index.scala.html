@@ -1,0 +1,19 @@
+	@(userForm: Form[User])
+	@import helper._
+
+	@main("Correo ETSII") {
+<header>
+<h1> ETSIIMAIL </h1>
+</header>
+<body>
+	<h3> Inserte sus datos</h3>
+		@helper.form(action = routes.Application.submit(),'id -> "userForm") {
+
+			@helper.inputText(userForm("username"))
+			@helper.inputText(userForm("password"))
+			<input type="submit" class="btn primary" value="Envia">
+		}
+	
+	}
+	
+</body>

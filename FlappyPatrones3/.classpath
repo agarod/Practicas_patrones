@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="FlappyRemake-master/src"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/FlappyBird.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/ibxm.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/jinput.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/jnlp.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/lwjgl_util_applet.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/lwjgl.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/natives-linux.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/natives-mac.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/natives-windows.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/slick-examples.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/slick.jar"/>
+	<classpathentry kind="lib" path="FlappyRemake-master/lib/tinylinepp.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Flappy_Bird-master/lwjgl-2.9.1/native/windows"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="FlappyRemake-master/bin"/>
+</classpath>

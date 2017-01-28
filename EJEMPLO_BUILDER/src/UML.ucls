@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="es.ull.patrones.builder.Cocinero" project="EJEMPLO_BUILDER" 
+    file="/EJEMPLO_BUILDER/src/es/ull/patrones/builder/Cocinero.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="189" x="225" y="-8"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="es.ull.patrones.builder.Establecimiento" project="EJEMPLO_BUILDER" 
+    file="/EJEMPLO_BUILDER/src/es/ull/patrones/builder/Establecimiento.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="210" x="517" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="es.ull.patrones.builder.Hamburguesa" project="EJEMPLO_BUILDER" 
+    file="/EJEMPLO_BUILDER/src/es/ull/patrones/builder/Hamburguesa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="445" y="745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="es.ull.patrones.builder.Hamburgueseria" project="EJEMPLO_BUILDER" 
+    file="/EJEMPLO_BUILDER/src/es/ull/patrones/builder/Hamburgueseria.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="672" y="359"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="es.ull.patrones.builder.MiniChoco" project="EJEMPLO_BUILDER" 
+    file="/EJEMPLO_BUILDER/src/es/ull/patrones/builder/MiniChoco.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="82" y="308"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="es.ull.patrones.builder.SuperChoco" project="EJEMPLO_BUILDER" 
+    file="/EJEMPLO_BUILDER/src/es/ull/patrones/builder/SuperChoco.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="167" x="246" y="255"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="es.ull.patrones.builder.Principal" project="EJEMPLO_BUILDER" 
+    file="/EJEMPLO_BUILDER/src/es/ull/patrones/builder/Principal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="884" y="87"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="9" name="hamburgueseria"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="13">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="14" name="hamburguesa"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="17" name="cocinero"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="general.Acceder" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/Acceder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="137" x="231" y="21"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="general.Cliente" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/Cliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="117" x="56" y="-14"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="general.Web2" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/Web2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="408" y="526"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="general.Web1" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/Web1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="121" y="512"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="general.IParsear" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/IParsear.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="171" x="172" y="203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="general.Irepresentacion" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/Irepresentacion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="752" y="243"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="general.RepresentacionGrafica" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/RepresentacionGrafica.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="674" y="407"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="general.RepresentacionTexto" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/RepresentacionTexto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1024" y="407"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="GUI.Paneles" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/GUI/Paneles.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="590" y="727"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="general.JFreeChartXY" project="Ejercicio_Patron_Parseo_Observador" 
+    file="/Ejercicio_Patron_Parseo_Observador/src/general/JFreeChartXY.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="827" y="571"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="11">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

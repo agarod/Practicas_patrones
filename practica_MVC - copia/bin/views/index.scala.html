@@ -1,0 +1,24 @@
+@(organizador: List[Item], itemForm:Form[String])
+
+
+@import helper._
+@main("BLOCK NOTAS") {
+
+
+
+@form(routes.Application.createItem()){
+
+@textarea(itemForm("item"), '_label ->"Agregando Nota")
+
+<input type = "submit" value= "Create">
+}
+
+<h3>@organizador.size Item(s)</h3>
+<ul>
+   @for(item<-organizador){
+   <li>@item.item
+   <a href="@routes.Application.deleteItem(item.id)">delete item</a>
+   </li>
+   }
+</ul>
+}

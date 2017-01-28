@@ -1,0 +1,58 @@
+@(title: String)(content: Html)
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+    </head>
+    <body  style="background:#80BFFF">
+   
+		<div style="height: 75px; background-color: #CCC;">
+			<h1 style="font-family:verdana" align= "center"><FONT SIZE= 10>Lista de la compra </FONT></h1>
+		</div>  
+      
+		<div id ="cuerpo"> 
+    
+		<p align="justify"><strong><font size=4><br><br>esta es una apliacion simple de la simulacion de un block de notas en el que usuario 
+    puede introducir lo que desee; asi guardarlo, y en el momento que lo
+    desee puede eliminar la nota.  
+    esto es un ejemplo sencillo utilizando la herramienta play framework,
+    usando el patron de modelo,vista, controlador(MVC).</font></strong></p>
+   <HR WIDTH=80% SIZE=5>
+		<h3 align="center"><FONT SIZE=6>NOTAS</FONT></h3> <br>
+		<fieldset>
+			<table>
+			<tr>
+				<td>
+				
+				
+					<SELECT NAME="selCombo" SIZE=1 onChange="javascript:alert(VALUE);"> 
+						<OPTION VALUE="link pagina 1">Mercadona</OPTION>
+						<OPTION VALUE="link pagina 2">Carrefour</OPTION>
+						<OPTION VALUE="link pagina 3">Auchan</OPTION>
+						<OPTION VALUE="link pagina 4">Hiperdino</OPTION> 
+					</SELECT>	
+					
+				</td>
+				<td>
+				</td>
+				<td>
+					<div aling=center> @content</div> 
+				</td>
+				</tr>
+				
+			</table>
+	
+   
+ 
+		</fieldset>
+    </body>
+	
+	
+</html>

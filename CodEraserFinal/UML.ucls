@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <package id="1" language="java" name="patrones.Principal" project="Borrador" file="/Borrador/src/patrones/Principal" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="138" width="157" x="145" y="63"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="patrones.model" project="Borrador" file="/Borrador/src/patrones/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="768" y="237"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="patrones.controller" project="Borrador" file="/Borrador/src/patrones/controller" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="529" y="114"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="patrones.view" project="Borrador" file="/Borrador/src/patrones/view" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="104" x="294" y="209"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

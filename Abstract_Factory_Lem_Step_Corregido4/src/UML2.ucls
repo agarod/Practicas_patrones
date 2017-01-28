@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="varios.CharacterStats" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/CharacterStats.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="137" x="63" y="1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="varios.CollisionEvent" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/CollisionEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="457" y="138"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="3" language="java" name="varios.CommonCode.IntersectionType" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/CommonCode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="552" y="-138"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="4" language="java" name="varios.CommonCode" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/CommonCode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="986" y="-201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" language="java" name="varios.CommonCode.CollisionType" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/CommonCode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1007" y="-44"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="6" language="java" name="varios.CommonCode.CharacterDirection" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/CommonCode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1195" y="-35"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="varios.IntersectionEvent" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/IntersectionEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="244" x="739" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="varios.Item" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/Item.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="884" y="310"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="varios.Level" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/Level.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1208" y="237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="varios.NextLevelInformation" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/NextLevelInformation.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="665" y="424"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="varios.NPCAI" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/NPCAI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="968" y="453"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="varios.NPCInteraction" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/NPCInteraction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1188" y="480"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="varios.PlayerInteraction" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/PlayerInteraction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="221" x="237" y="269"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="varios.World" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/varios/World.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="750" y="793"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="es.ull.patrones.Characters.Entity" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/Entity.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="315" width="201" x="-43" y="465"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="es.ull.patrones.Characters.Character" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/Character.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="136" y="1135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="es.ull.patrones.Characters.BadLemming" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/BadLemming.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="512" x="408" y="976"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="es.ull.patrones.Characters.Lemming" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/Lemming.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="693" y="1322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="es.ull.patrones.Characters.Friendly" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Characters/Friendly.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-75" y="1566"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="states.GameplayState" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/states/GameplayState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="418" y="1638"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="states.GameplayState2" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/states/GameplayState2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="789" y="1619"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="states.MainMenuState" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/states/MainMenuState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="134" y="1897"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="states.MainMenuState2" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/states/MainMenuState2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="783" y="1912"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="es.ull.patrones.Laberinto.JuegoDelLaberinoConPuertasBomba" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Laberinto/JuegoDelLaberinoConPuertasBomba.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="244" y="2297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="es.ull.patrones.Laberinto.JuegoDelLaberintoNormal" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Laberinto/JuegoDelLaberintoNormal.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="678" y="2306"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="es.ull.patrones.Laberinto.FabricaAbstractaLaberintos" 
+    project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/Laberinto/FabricaAbstractaLaberintos.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="453" y="2677"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="27" language="java" name="es.ull.patrones.GUI.Ventana" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/es/ull/patrones/GUI/Ventana.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="140" x="41" y="2549"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="Principal.LemmingsInWorld" project="Abstract_Factory_Lem_Step_Corregido4" 
+    file="/Abstract_Factory_Lem_Step_Corregido4/src/Principal/LemmingsInWorld.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="128" x="-108" y="2398"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="30">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="31" name="enemyset1"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="34">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="35" name="nextLevelInfo"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="37">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <association id="38">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="39" name="collisionType"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="45">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="47">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="48" name="enemyset3"/>      
+      <multiplicity id="49" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="50">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="51">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="52" name="items"/>      
+      <multiplicity id="53" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <nesting id="55">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="57">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="58" name="nivel"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="61" name="npcAI"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="63">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <association id="64">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="65" name="levels"/>      
+      <multiplicity id="66" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="68" name="level"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="71" name="player"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="74" name="item1"/>      
+      <multiplicity id="75" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="77" name="enemyset3"/>      
+      <multiplicity id="78" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="79">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="80">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="81" name="enemyset1"/>      
+      <multiplicity id="82" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="84">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="85">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="86" name="Gilgamesh"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="88">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="89">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="90" name="TioMalo"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="92">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="94">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="95">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="96" name="friendly1"/>      
+      <multiplicity id="97" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="99" name="friendly1"/>      
+      <multiplicity id="100" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="101">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="102" name="friendlies"/>      
+      <multiplicity id="103" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="104">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="105">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="106" name="world"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="108">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="109" name="player"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="111">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="112">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="113">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="114" name="enemyset2"/>      
+      <multiplicity id="115" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="116">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="117">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="118">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="119" name="InteraccionJugador"/>      
+      <multiplicity id="120" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="121">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <dependency id="122">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <generalization id="123">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <association id="124">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="125" name="npcInteraction"/>      
+      <multiplicity id="126" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="127">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <dependency id="128">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="129">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="130">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="131">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="132" name="enemyset2"/>      
+      <multiplicity id="133" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="134">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="135">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="136" name="item1"/>      
+      <multiplicity id="137" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="138">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="139">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="140">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="141" name="npcAI"/>      
+      <multiplicity id="142" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="143">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="144" name="npcInteraction"/>      
+      <multiplicity id="145" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="146">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="147" name="currentDirection"/>      
+      <multiplicity id="148" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="149">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="150" name="initialLevelInfo"/>      
+      <multiplicity id="151" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="152">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="153" name="player"/>      
+      <multiplicity id="154" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="155">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="156">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="157" name="currentDirection"/>      
+      <multiplicity id="158" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="159">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="160" name="direction"/>      
+      <multiplicity id="161" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="162">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="163" name="enemies"/>      
+      <multiplicity id="164" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="165">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="166">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="167" name="labe"/>      
+      <multiplicity id="168" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="169">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="170" name="playerInteraction"/>      
+      <multiplicity id="171" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="172">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="173" name="Gilgamesh"/>      
+      <multiplicity id="174" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="175">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="176">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="177" name="characterStats"/>      
+      <multiplicity id="178" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="179">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="180" name="npcAI"/>      
+      <multiplicity id="181" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="182">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="183">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="184">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <association id="185">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="186" name="InteraccionNPC"/>      
+      <multiplicity id="187" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="188">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="189" name="nextLevelInfo"/>      
+      <multiplicity id="190" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="191">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="192" name="world"/>      
+      <multiplicity id="193" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="194">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="195">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="196" name="levels"/>      
+      <multiplicity id="197" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="198">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="199" name="npcAI"/>      
+      <multiplicity id="200" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="201">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="202" name="character"/>      
+      <multiplicity id="203" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="204">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="205">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="206" name="playerInteraction"/>      
+      <multiplicity id="207" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="208">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="209" name="level"/>      
+      <multiplicity id="210" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="211">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="212">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="213">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="214">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="215">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="216" name="TioMalo"/>      
+      <multiplicity id="217" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="218">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="219">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="220" name="NivelActual"/>      
+      <multiplicity id="221" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="222">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="223" name="levels"/>      
+      <multiplicity id="224" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="225">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

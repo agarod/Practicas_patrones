@@ -1,0 +1,59 @@
+@(FormEstudiante: Form[views.formdata.DatosEstudiantes],
+  Acceso:     Map[String,Boolean],
+  Curso:      List[String],
+  Anio:      Map[String,Boolean],
+  titulacion:      Map[String,Boolean])
+
+@import bootstrap3._
+
+<fieldset>
+  <!-- Header -->
+  <div id="legend">
+    <legend>Creacion de cuenta</legend>
+  </div>
+
+   <!-- NOMBRE -->
+  @text(FormEstudiante("name"),
+        label = "Nombre de usuario",
+        placeholder = "usuario@ull.edu.es",
+        help = "*Obligatorio")
+
+  <!-- PASSWORD -->
+  @password(FormEstudiante("password"),
+            label = "Password",
+            placeholder = "[a-z],[A-Z],[0-9]",
+            help = "Password debe tener 5 o mas caracteres")
+
+   <!-- Accesos -->
+  @checkboxes(FormEstudiante("Tipo de acceso"),
+              label = "Tipo de acceso",
+              checkboxMap = Acceso,
+              help = "Forma de acceder a la titulacion")
+
+  <!-- CURSO-->
+  @radiobuttons(FormEstudiante("level"),
+                label = "Curso",
+                buttonNameList = Curso,
+                help = "Seleccione el curso matriculado de mas alta graduacion")
+
+  <!-- AñOS EN LA CARRERA -->
+  @select(FormEstudiante("Años"),
+          label = "Años en la carrera",
+          optionMap = años,
+          isMultiple = false,
+          help = "Seleccione cuantos años lleva en la carrera")
+
+  <!-- TITULACION -->
+  @select(FormEstudiante("Titulaciones"),
+          label = "Titulacion",
+          optionMap = Titulaciones,
+          isMultiple = true,
+          help = "Seleccione una o mas carreras en las que este matriculado")
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button id="submit" type="submit" value="Submit" class="btn btn-primary">Enviar</button>
+      <button id="cancel" class="btn cancel">Cancelar</button>
+    </div>
+  </div>
+</fieldset>

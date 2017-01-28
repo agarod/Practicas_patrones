@@ -1,0 +1,3 @@
+Importa las librerias contenidas en la carpeta Slick/lib
+en la libreria nativa que deberia poner None.... seleciona el directorio donde esta contenido la carpeta Slick(basicamente
+ahi deberia encontrarse los archivos de native_windows, native_mac o linux

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="DONOTUSE" tilewidth="32" tileheight="32">
+  <image source="../../AdventureGame/data/textures/8-bit_tileset2/cave_4.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="513" name="tiles2" tilewidth="32" tileheight="32">
+  <image source="../../AdventureGame/data/textures/Hyptosis_tilesets/hyptosis_tile-art-batch-3.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="1413" name="tiles3" tilewidth="32" tileheight="32">
+  <image source="../../AdventureGame/data/textures/treasure chest 2.jpg" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1414" name="tiles1" tilewidth="32" tileheight="32">
+  <image source="../../AdventureGame/data/textures/8-bit_tileset2/cave_4.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="1926" name="tiles1_2" tilewidth="32" tileheight="32">
+  <image source="../../AdventureGame/data/textures/8-bit_tileset2/cave_4.gif" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2438" name="properties_layer" tilewidth="32" tileheight="32">
+  <image source="../../AdventureGame/data/textures/properties_layer.jpg" width="480" height="480"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="door" value="true"/>
+    <property name="levelID" value="2"/>
+    <property name="startX" value="416"/>
+    <property name="startY" value="96"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="door" value="true"/>
+    <property name="levelID" value="4"/>
+    <property name="startX" value="192"/>
+    <property name="startY" value="416"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="properties" width="15" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2vjZGBoGyAMAjAaxu5Awuhq0PWi6ycE0PUSUkuMXlz+wqUX3e2k6MWmjxi3kepmYtxDqpuJBbjcg089Ne0lJWyIwejpGRsGAIj7WFmEAwAA
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="15" height="15" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACwtnYGCIIANHAnE6EGeQgTNH9Q5ZvWEcQ8/N9NBbDsQVZOBKIAYAxWJ9c4QDAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="15" height="15" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7vLwMBwD4jvE0nD2A+A+C0Q70LDu4FYBYhVgVgNiEUYMfEHqF4YmIiGOzkZGCYxYAfoehdiwYuI1EsKIKQX3Q8gDPMDIb34/EAtN+NzHyG9pIQxNd2MDgj5AZ9eQn4A6f0LxP+A+D+RNIzNAEzTvEDMB8T8RNIwtgAQAwAzXmbDhAMAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="15" height="15" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoD6YycrAMAuIZ7MSVsvGiWB/YmdgWAnUswqIVwPxV3ZUNU1Y9MPEFgLxFCi9kAw3L0Sj1ZDcNQWPPjMOBgZzJGzBAREvBeIyLOqvcyDYbkD2NijeDsQeULlWIG7DYyfIDJDek0B8Ckp7cOBW34jGd4PaB9K7G0lvIRY3wgBMLgwoF46EI/DYSywoJCCG7J4iNHXY3IoNxLIiMDrAF7+E9FJiLwwAAOxMqXeEAwAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,32 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+    </head>
+    <body  style="background:#80BFFF">
+   
+  <div style="height: 100px; background-color: #CCC;">
+ <h1 align="center"><FONT SIZE=10> Organizador de Notas </font></h1>
+      </div>  
+      
+    <div id ="cuerpo"> 
+    
+    <p align="justify"><strong><font size=4><br><br>esta es una apliacion simple de la simulacion de un block de notas en el que usuario 
+    puede introducir lo que desee; asi guardarlo, y en el momento que lo
+    desee puede eliminar la nota.  
+    esto es un ejemplo sencillo utilizando la herramienta play framework,
+    usando el patron de modelo,vista, controlador(MVC).</font></strong></p>
+   <HR WIDTH=80% SIZE=5>
+    <h3 align="center"><FONT SIZE=6>NOTAS</FONT></h3> <br>
+    <fieldset>
+     <div aling=center> @content</div>    
+     </fieldset>
+    </body>
+</html>
